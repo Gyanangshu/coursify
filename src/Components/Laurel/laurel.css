@@ -1,0 +1,55 @@
+.app_laurel{
+    padding-top: 80px;
+}
+
+.app_laurel_container{
+    margin-bottom: 80px;
+}
+
+.app_laurel_content{
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline-display {
+    font-size: 80px;
+    line-height: 120%;
+}
+
+.laurel-desc{
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    line-height: 150%;
+}
+
+.laurel-button{
+    border-radius: 12px;
+    padding: 12px 40px;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 480px){
+    .headline-display {
+        font-size: 60px;
+    }
+
+    .laurel-desc{
+        font-size: 1.2rem;
+    }
+
+    .laurel-button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .headline-display {
+        font-size: 50px;
+    }
+
+    .laurel-desc{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,110 @@
+.app_signup {
+    margin-bottom: 60px;
+}
+
+.app_signup_container {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all .2s;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 24px;
+    gap: 20px;
+}
+
+.app_signup_field {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    width: 100%;
+}
+
+.app_signup_field input {
+    width: 100%;
+    height: auto;
+    color: #000;
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+    margin-bottom: 0;
+    padding: 12px 1em;
+    line-height: 24px;
+    outline-color: blue;
+    transition: border .3s;
+}
+
+.app_signup_field button {
+    width: 12%;
+    height: 50px;
+}
+
+.app_signup_google {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* width: 100%; */
+}
+
+.app_signup_google img {
+    height: 20px;
+}
+
+.app_signup_google button {
+    /* height: 48px; */
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    cursor: pointer;
+}
+
+.app_signup-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    max-width: 500px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .app_signup_field {
+        flex-wrap: wrap;
+    }
+
+    .app_signup_field button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app_signup_container {
+        flex-direction: column;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .app_signup-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .app_signup_google {
+        width: 100%;
+    }
+
+    .app_signup_google button {       
+        justify-content: center;
+        width: 100%;
+    }
+}

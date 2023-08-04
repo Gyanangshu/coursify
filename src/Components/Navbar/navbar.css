@@ -1,0 +1,137 @@
+.app_navbar{
+    /* padding-inline: 6.2rem; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: static; */
+}
+
+.app_navbar_logo img{
+    height: 25px;
+    cursor: pointer;
+}
+
+.app_navbar_contents{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.app_navbar_contents-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.nav_links{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-items{
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+    
+}
+
+.nav-items::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: red;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-items:hover{
+    color: red;
+}
+
+.nav-items:hover::after{
+    transform: scale(1);
+}
+
+/* smallscreen navbar  */
+
+.nav_smallscreen{
+    display: none;
+}
+
+.nav_smallscreen_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_smallscreen_navbar_logo img{
+    height: 25px;
+}
+
+.nav_smallscreen_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: white;
+    transition: 0.5s ease;
+    font-size: 27px;
+    z-index: 5;
+    padding-inline: 5rem;
+    top: 30px;
+    right: 20px;
+}
+
+.nav_smallscreen_nav-links{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav_smallscreen_nav-links p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.nav_smallscreen_nav-links p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.nav_smallscreen_buttons{
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width: 1150px){
+
+    .app_navbar{
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+    .nav_smallscreen_head{
+        margin-bottom: 4rem;
+    }
+
+    .body-padding{
+        padding-inline: 4rem;
+    }
+
+    .app_navbar_contents{
+        display: none;
+    }
+
+    .nav_smallscreen{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .nav_smallscreen_overlay{
+        padding-inline: 1.5rem;
+    }
+
+    .body-padding{
+        padding-inline: 2rem;
+    }
+}

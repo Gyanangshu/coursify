@@ -1,0 +1,48 @@
+.app_statistics_count {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.stat {
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.border {
+    border-right: 1px solid #dcdcdc;
+}
+
+.app_statistics_count_field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px 60px 20px;
+}
+
+.headline-number {
+    margin-bottom: 8px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.headline-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .stat {
+        flex-direction: column;
+    }
+
+    .border {
+    border-right: none;
+}
+
+}

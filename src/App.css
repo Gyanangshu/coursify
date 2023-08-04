@@ -1,0 +1,144 @@
+.button-dark{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    transition: all .15s;
+    display: inline-block;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button-dark:hover{
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+.button-light{
+    color: #000;
+    background-color: #fff;
+    border-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    transition: all .15s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button-light:hover{
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    background-color: #f9d5d5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    letter-spacing: -.8px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+h2{
+    letter-spacing: -.8px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+h3{
+    letter-spacing: -.4px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+p{
+    margin-bottom: 16px;
+    font-size: 1em;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+  
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+}
+  
+
+.body-padding{
+    padding-inline: 9rem;
+}
+
+.pre-headline{
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-right: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 120%;
+}
