@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
 
       <div className="app_hero_img">
-        <img src={heroLogo} alt="" />
+        <img src={heroLogo} alt="logo" />
       </div>
 
     </section>

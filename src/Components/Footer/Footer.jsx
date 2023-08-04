@@ -26,30 +26,30 @@ const Footer = () => {
                                 <li className="footer-li"><b>For Candidates</b></li>
                                 <li className="footer-li">Overview</li>
                                 <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
+                                <li className="footer-li">Web3 Jobs</li>
+                                <li className="footer-li">Featured</li>
+                                <li className="footer-li">Salary Calculator</li>
+                                <li className="footer-li">Startup Hiring Data</li>
+                                <li className="footer-li">Tech Startups</li>
+                                <li className="footer-li">Remote</li>
                             </ul>
                             <ul className="footer-link-list">
                                 <li className="footer-li"><b>For Recruiters</b></li>
                                 <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
+                                <li className="footer-li">Recruit Pro</li>
+                                <li className="footer-li">Curated</li>
+                                <li className="footer-li">RecruiterCloud</li>
+                                <li className="footer-li">Hire Developers</li>
+                                <li className="footer-li">Pricing</li>
                             </ul>
                             <ul className="footer-link-list">
-                                <li className="footer-li"><b>For Company</b></li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
-                                <li className="footer-li">Overview</li>
-                                <li className="footer-li">Startup Jobs</li>
+                                <li className="footer-li"><b>Company</b></li>
+                                <li className="footer-li">About</li>
+                                <li className="footer-li">AngelList Venture</li>
+                                <li className="footer-li">Help</li>
+                                <li className="footer-li">Blog</li>
+                                <li className="footer-li">Terms & Risks</li>
+                                <li className="footer-li">Privacy & Cookies</li>
                             </ul>
                         </div>
                     </div>
